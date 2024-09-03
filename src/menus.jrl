@@ -1,0 +1,12 @@
+p({
+  class: "foam.nanos.menu.Menu",
+  id: "hello",
+  label: "Hello World",
+  handler: {
+    class: "foam.nanos.menu.ViewMenu",
+    view: {
+      class: "foam.u2.DetailView",
+      of: "example.Hello"
+    }
+  }
+})
