@@ -1,0 +1,10 @@
+# nanos will run from the app subdir
+app/*
+
+# temporary build artifacts will be put into build
+build/*
+
+pom.xml
+
+## Some exludes if you use intellij
+.idea/*

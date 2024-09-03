@@ -1,0 +1,13 @@
+// place to put nanos services that we want to run/configure
+
+// customize the app config, fill in appstore/playstore links below
+p({
+  "class":"foam.nanos.boot.NSpec",
+  "name":"appConfig",
+  "lazy":false,
+  "service": {
+    "class":"foam.nanos.app.AppConfig",
+    "appLink": "",
+    "playLink": ""
+  }
+})
